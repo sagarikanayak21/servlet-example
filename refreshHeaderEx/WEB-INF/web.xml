@@ -1,0 +1,10 @@
+<web-app>
+    <servlet>
+        <servlet-name>sn</servlet-name>
+        <servlet-class>com.rh.web.RefreshHeaderEx</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>sn</servlet-name>
+        <url-pattern>/httpEx</url-pattern>
+    </servlet-mapping>
+</web-app>

@@ -1,0 +1,26 @@
+<web-app>
+    <filter>
+        <filter-name>securityFilter</filter-name>
+        <filter-class>com.sn.filter.SecurityFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>securityFilter</filter-name>
+        <url-pattern>/test</url-pattern>
+    </filter-mapping>
+     <filter>
+        <filter-name>loggingFilter</filter-name>
+        <filter-class>com.sn.filter.LoggingFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>loggingFilter</filter-name>
+        <url-pattern>/test</url-pattern>
+    </filter-mapping>
+    <servlet>
+        <servlet-name>test</servlet-name>
+        <servlet-class>com.sn.web.TestServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>test</servlet-name>
+        <url-pattern>/test</url-pattern>
+    </servlet-mapping>
+</web-app>

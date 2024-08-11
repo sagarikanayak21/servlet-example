@@ -1,0 +1,10 @@
+<web-app>
+    <servlet>
+        <servlet-name>addCookie</servlet-name>
+        <servlet-class>com.msc.web.AddCookieController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>addCookie</servlet-name>
+        <url-pattern>/addCookie</url-pattern>
+    </servlet-mapping>
+</web-app>

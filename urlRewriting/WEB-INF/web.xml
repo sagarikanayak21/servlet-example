@@ -1,0 +1,19 @@
+<web-app>
+    <servlet>
+        <servlet-name>urlRewriting</servlet-name>
+        <servlet-class>com.msc.web.MyServiceController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>urlRewriting</servlet-name>
+        <url-pattern>/urlRewriting</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>profile</servlet-name>
+        <servlet-class>com.ac.web.ProfileController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>profile</servlet-name>
+        <url-pattern>/profile</url-pattern>
+    </servlet-mapping>
+</web-app>
